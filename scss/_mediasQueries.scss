@@ -1,0 +1,86 @@
+@media screen  and (max-width: 480px)and (min-width: 1px) {
+
+    .cabecera{
+    
+    h1{
+        text-align: center;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+       
+    }
+}
+.Main2{
+.formulario{
+   margin: 50px;
+   padding: 40px;
+   width: 80%;
+   input, textarea {
+    width: 100%;
+    }
+    button {
+        background-color: rgb(190, 127, 10);
+        color: white;
+        width: 40%;}
+    button:hover{
+            background-color: rgb(236, 173, 57);
+      
+        }
+}
+}
+
+.Main3{
+
+display: flex;
+flex-direction: column;
+.camara{
+    width:100%
+}
+}
+
+.Main4{
+h2{
+    text-align: center;
+}
+.container{
+  width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+
+   
+}
+ img{
+    width: 100%;
+    height: 300px;
+}
+p{
+   
+    position: absolute;
+    font-size: 2rem;
+    color: rgb(246, 125, 81);
+   bottom: 0px;
+  
+
+}
+.container p a{
+text-decoration: none;
+color: orangered;
+font-weight: bolder;
+}
+
+
+
+
+
+.Main5{
+    .slide img{
+        height: 300px;
+    }
+}
+
+
+
+}
+}

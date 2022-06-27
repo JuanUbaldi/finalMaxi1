@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+#bodyContainer {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bolder;
+  background-color: #c48c3e; }
+
+.cabecera {
+  background-image: url(../img/fondoNav.jpg); }
+  .cabecera h1 {
+    text-align: center;
+    color: aliceblue; }
+  .cabecera .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none; }
+  .cabecera a {
+    text-decoration: none;
+    color: aliceblue; }
+
+.principal .frase1 {
+  text-align: end; }
+
+.principal .frase2 {
+  text-align: end; }
+
+.footer {
+  margin-top: 100px; }
+  .footer .h5 {
+    text-align: center; }
+  .footer .redes {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .footer img {
+    padding: 10px; }
+
+.Main2 .formulario {
+  width: 25%;
+  border: solid orange 2px;
+  margin: auto;
+  padding: 20px; }
+  .Main2 .formulario input, .Main2 .formulario textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: solid 1px grey; }
+  .Main2 .formulario button {
+    background-color: #be7f0a;
+    color: white;
+    width: 40%; }
+  .Main2 .formulario button:hover {
+    background-color: #ecad39; }
+
+.Main3 {
+  margin: 25px;
+  display: grid;
+  grid-template-columns: repeat(3 1fr);
+  grid-template-rows: repeat(4 1fr);
+  grid-template-areas: "h2 h2 h2" "h3Exp . pExp" "h3Tr . pTr" ". img . "; }
+  .Main3 .exp {
+    padding: 10px;
+    border: orangered 2px solid; }
+  .Main3 .trab {
+    padding: 10px;
+    border: orangered 2px solid; }
+  .Main3 .h2 {
+    margin: 100px;
+    text-align: center;
+    color: aliceblue; }
+
+.h2 {
+  grid-area: h2; }
+
+.h3exp {
+  grid-area: h3Exp; }
+
+.pexp {
+  grid-area: pExp; }
+
+.h3trabajos {
+  grid-area: h3Tr; }
+
+.pTrabajos {
+  grid-area: pTr; }
+
+.img {
+  grid-area: img; }
+
+.camara {
+  width: 500px;
+  height: 400px; }
+
+.Main4 h2 {
+  text-align: center;
+  margin: 100px;
+  padding: 100px;
+  color: aliceblue; }
+
+.Main4 .container {
+  width: 800px;
+  height: 600px;
+  position: relative;
+  overflow: hidden; }
+
+.Main4 img {
+  width: 100%;
+  height: 600px; }
+
+.Main4 p {
+  position: absolute;
+  font-size: 2rem;
+  color: #b5451d;
+  bottom: 0px; }
+
+.Main4 .container p a {
+  text-decoration: none;
+  color: orangered;
+  font-weight: bolder; }
+
+.Austria {
+  margin-top: 100px; }
+  .Austria h2 {
+    text-align: center;
+    color: aliceblue; }
+
+.HongKong {
+  margin-top: 100px; }
+  .HongKong h2 {
+    text-align: center;
+    color: aliceblue; }
+
+.Singapur {
+  margin-top: 100px; }
+  .Singapur h2 {
+    text-align: center;
+    color: aliceblue; }
+
+.CR {
+  margin-top: 100px; }
+  .CR h2 {
+    text-align: center;
+    color: aliceblue; }
+
+.Alaska {
+  margin-top: 100px; }
+  .Alaska h2 {
+    text-align: center;
+    color: aliceblue; }
+
+.Main5 h2 {
+  text-align: center;
+  margin: 100px;
+  color: aliceblue; }
+
+.Main5 p {
+  text-align: center; }
+
+.Main5 h3 {
+  color: aliceblue; }
+
+.Main5 .slide img {
+  height: 700px; }
+
+.Main6 h3 {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 100px; }
+
+@media screen and (max-width: 480px) and (min-width: 1px) {
+  .cabecera h1 {
+    text-align: center; }
+  .cabecera .navbar {
+    display: flex;
+    flex-direction: column; }
+  .Main2 .formulario {
+    margin: 50px;
+    padding: 40px;
+    width: 80%; }
+    .Main2 .formulario input, .Main2 .formulario textarea {
+      width: 100%; }
+    .Main2 .formulario button {
+      background-color: #be7f0a;
+      color: white;
+      width: 40%; }
+    .Main2 .formulario button:hover {
+      background-color: #ecad39; }
+  .Main3 {
+    display: flex;
+    flex-direction: column; }
+    .Main3 .camara {
+      width: 100%; }
+  .Main4 h2 {
+    text-align: center; }
+  .Main4 .container {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden; }
+  .Main4 img {
+    width: 100%;
+    height: 300px; }
+  .Main4 p {
+    position: absolute;
+    font-size: 2rem;
+    color: #f67d51;
+    bottom: 0px; }
+  .Main4 .container p a {
+    text-decoration: none;
+    color: orangered;
+    font-weight: bolder; }
+  .Main4 .Main5 .slide img {
+    height: 300px; } }
